@@ -38,10 +38,11 @@
             "destination": "/public/css/forms/feedback.css"
         },
         {
-            "type": "form",
+            "type": "onifyApiRequest",
             "name": "feedback",
             "source": "https://raw.githubusercontent.com/onify/blueprint-public-feedback-form/main/feedback_form.json",
-            "destination" : "/admin/forms"
+            "url" : "/admin/forms",
+            "method" : "POST"
         }
     ]
 }
