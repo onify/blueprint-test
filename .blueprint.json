@@ -1,0 +1,14 @@
+{
+  "id" : "blueprint-test",
+  "name" : "Onify Blueprint: Testing testing",
+  "tag" : ["test"],
+  "files" : [
+    {
+      "type" : "resource",
+      "name" : "feedback.pug",
+      "source" : "https://raw.githubusercontent.com/onify/blueprint-public-feedback-form/main/resources/forms/feedback.pug",
+      "destination" : "/resources/forms/feedback.pug"
+    }
+    
+  ]  
+}
