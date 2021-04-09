@@ -7,8 +7,7 @@
       "type" : "resource",
       "name" : "feedback.pug",
       "source" : "https://raw.githubusercontent.com/onify/blueprint-public-feedback-form/main/resources/forms/feedback.pug",
-      "destination" : "/resources/forms/feedback.pug"
+      "destination" : "{{settings.resources_path_forms}}/feedback.pug"
     }
-    
   ]  
 }
