@@ -15,7 +15,8 @@
             {
                 "name": "test",
                 "label": "Testing",
-                "value" : "xxx"
+                "value" : "xxx",
+                "required" : true
             }
         ]
     },
