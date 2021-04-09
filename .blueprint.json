@@ -8,13 +8,14 @@
         "css"
     ],
     "form": {
-        "name": "",
+        "name": "Install Onify Blueprint: Public feedback form"",
+        "slug": "blueprint-public-feedback-form",
         "description": "",
         "fields": [
             {
-                "name": "",
-                "label": "",
-                "value" : ""
+                "name": "test",
+                "label": "Testing",
+                "value" : "xxx"
             }
         ]
     },
