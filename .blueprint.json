@@ -2,7 +2,17 @@
   "id" : "blueprint-test",
   "name" : "Onify Blueprint: Testing testing",
   "tag" : ["test"],
-  "files" : [
+  "form" : {
+      "name" : "",
+      "description" : "",
+      "fields" : [
+        {
+          "name" : "",
+          "label" : ""
+        } 
+      ]
+},
+  "file" : [
     {
       "type" : "resource",
       "name" : "feedback.pug",
