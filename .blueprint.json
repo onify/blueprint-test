@@ -1,8 +1,11 @@
 {
-    "id": "blueprint-test",
-    "name": "Onify Blueprint: Testing testing",
+    "id": "blueprint-public-feedback-form",
+    "name": "Onify Blueprint: Public feedback form",
     "tag": [
-        "test"
+        "form",
+        "feedback",
+        "public",
+        "css"
     ],
     "form": {
         "name": "",
@@ -21,6 +24,19 @@
             "name": "feedback.pug",
             "source": "https://raw.githubusercontent.com/onify/blueprint-public-feedback-form/main/resources/forms/feedback.pug",
             "destination": "/forms/feedback.pug"
-        }
+        },
+        {
+            "type": "resource",
+            "name": "feedback-result.pug",
+            "source": "https://raw.githubusercontent.com/onify/blueprint-public-feedback-form/main/resources/forms/feedback-result.pug",
+            "destination": "/forms/feedback-result.pug"
+        },
+        {
+            "type": "resource",
+            "name": "feedback.css",
+            "source": "https://raw.githubusercontent.com/onify/blueprint-public-feedback-form/main/resources/public/css/forms/feedback.css",
+            "destination": "/public/css/forms/feedback.css"
+        },
+        
     ]
 }
