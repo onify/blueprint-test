@@ -36,6 +36,12 @@
             "name": "feedback.css",
             "source": "https://raw.githubusercontent.com/onify/blueprint-public-feedback-form/main/resources/public/css/forms/feedback.css",
             "destination": "/public/css/forms/feedback.css"
+        },
+        {
+            "type": "form",
+            "name": "feedback",
+            "source": "https://raw.githubusercontent.com/onify/blueprint-public-feedback-form/main/feedback_form.json",
+            "destination" : "/admin/forms"
         }
     ]
 }
